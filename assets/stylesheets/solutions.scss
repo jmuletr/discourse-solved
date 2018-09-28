@@ -1,43 +1,50 @@
-.solved-panel, .post-controls .accepted, .fa.accepted, .accepted-text {
-  color: green;
+.solved-panel,
+.post-controls .accepted,
+.fa.accepted,
+.accepted-text {
+    color: green !important;
 }
 
 .post-controls span:not(.d-button-label) {
-  display: inline-flex;
-  align-items: baseline;
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.link-top-line {
+    .topic-statuses {
+        color: green;
+    }
 }
 
 .post-controls .accepted-text {
-  display: inline-block;
-  font-size: inherit;
-  margin-right: -3px;
-  z-index: 999;
+    display: inline-block;
+    font-size: inherit;
+    margin-right: -3px;
+    z-index: 999;
 }
 
 // you can style accepted answers however your want
 .topic-post.accepted-answer .topic-body {
-//  background-color: #E9FFE0;
+    //  background-color: #E9FFE0;
 }
 
 .mobile-view .solved-panel {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .solved-panel {
-
-  .by {
-    display: none;
-  }
-
-  margin-top: 20px;
-  margin-bottom: 0px;
-  font-size: 13px;
-  // margin-bottom: 0px;
-  // padding: 4px 0px;
-  //border-top: 1px solid #ddd;
-  //background-color: #E9FFE0;
+    .by {
+        display: none;
+    }
+    margin-top: 20px;
+    margin-bottom: 0px;
+    font-size: 13px;
+    // margin-bottom: 0px;
+    // padding: 4px 0px;
+    //border-top: 1px solid #ddd;
+    //background-color: #E9FFE0;
 }
 
 aside.quote .title.title-only {
-  padding: 12px;
+    padding: 12px;
 }
